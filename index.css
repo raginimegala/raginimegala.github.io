@@ -1,0 +1,18 @@
+*{box-sizing: border-box;
+color:rgb(109, 233, 109)
+
+}
+
+.a{
+
+    display:flex;
+    flex-wrap: wrap;
+    color:rgb(109, 233, 109)
+}
+
+.b{
+
+    display:flex;
+    flex-wrap: wrap;
+    color:rgb(109, 233, 109)
+}
