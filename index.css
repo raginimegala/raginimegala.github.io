@@ -1,18 +1,50 @@
-*{box-sizing: border-box;
-color:rgb(109, 233, 109)
+* {
+    box-sizing: border-box;
+    }
+
+.main-page {
+    display: flex;
+    
+}
+
+.left-side {
+    background-color: rgb(230, 238, 160);
+        width:30%;
+    padding:15px;
+}
+
+.right-side {
+    background-color: rgb(236, 192, 219);
+    padding:15px;
+}
+
+body{
+    margin:0px;
+}
+
+#ragini{
+    width: 100%;
+}
+
+.wrap1{
+    display: flex;
+}
+
+.icon-container svg{
+    width:30px;
 
 }
 
-.a{
-
-    display:flex;
-    flex-wrap: wrap;
-    color:rgb(109, 233, 109)
+.profile{
+    position: relative;
 }
 
-.b{
-
-    display:flex;
-    flex-wrap: wrap;
-    color:rgb(109, 233, 109)
+.profile h2{
+    position: absolute;
+    bottom: -16px;
+    background: #00000061;
+    color: antiquewhite;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
 }
